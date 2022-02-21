@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--the explation of the wbsite-->
+        <meta charset="UTF-8">
+        <meta name="about vhonani" content="vhonani mugivhi code tribe website">
+        <meta name="vhonani" content="joining codetribe">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--the tittle of the web-->
+        <title>
+         contact Tedd.
+        </title>
+        <!--linking the style sheet-->
+        <link rel="stylesheet" href="my css.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head> 
+    <body>
+        <header>
+            <table id="topNav">
+                <tr>
+                    <td>
+                        <!--logo-->
+                        <a href="index.html"><img class="logo" src="logo.png"></a>
+                    </td>
+                    <!--navigators-->
+                    <td align="right">
+                        <nav>
+                        <a href="index.html">Home</a>
+                        <a href="About.html">About</a>
+                        <a href="contact us.html">Contact us</a>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+            <main>
+                <table id="mainTable">
+                    <tr>
+                        <td id="thecont">
+                       
+                            <p id="para0">
+                                <a href="https://www.google.com/maps/place/University+of+Venda/@-22.9761353,30.4464797,15z/data=!4m5!3m4!1s0x0:0x507f331174fe941f!8m2!3d-22.9761353!4d30.4464797">Univen</a>
+                            
+                            </p>
+                           
+                        
+                            <!--for adding the map with the inline style-->
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20venda&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                                    </iframe><a href="https://123movies-to.org"></a>
+                                    </div>
+                                </div>
+ 
+                        </td>
+                        <tr>
+                            <td>
+                            <form id="theOnlyForm"
+                                action="https://formspree.io/f/xoqrdlkz"
+                                method="post">
+                                <ul class="formcss">
+                                    <p id="para1"></p>
+                                    <h1>
+                                        <p id="para"></p>
+                                    </h1>
+                                    <p id='para2'style="color:red"></p>
+                                    <li><label id="lb1"><p></p></label>
+                                        <input type="text" name="field1" class="field-divided" placeholder="First" required> 
+                                        <input type="text" name="field2" class="field-divided" placeholder="Last" required></li>
+                                    <li>
+                                        <label id="mail"><p></p></label>
+                                        <input type="email" name="field3" class="field-long" required>
+                                    </li>
+                                    <li>
+                                        <label id="cont"><p></p></label>
+                                        <input type="text" onkeypress="return isNumberKey(event)" placeholder="mobile no" maxlength="10">
+                                    </li>
+                                    <li>
+                                        <label id="sbj"><p></p></label>
+                                        <select name="field4" class="field-select">
+                                            <option value="grading"><p>grading</p></option>
+                                        <option value="Question"><p>Questuion</p></option>
+                                        <option value="availability"><p>availability</p></option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <label id="mess"><p></p> <span class="required"></span></label>
+                                        <textarea name="field5" id="field5" class="textarea"></textarea>
+                                    </li>
+                                    <li>
+                                        <label id="theD"><p></p></label>
+                                        <input type="date" required>
+                                    </li>
+                                    <li>
+                                        <input type="submit" value="Submit" />
+                                        <input type="reset" value="Restart">
+                                    </li>
+                                </ul>
+                            </form>
+                            </td>
+                        </tr>
+                           
+            </main>
+            <footer>
+                <table id="footerTable">
+                    <tr>
+                        <td>
+                            
+                                <!--for adding the map with the inline style-->
+                                <div class="mapouter1">
+                                   <div class="gmap_canvas1">
+                                       <iframe width="200" height="200" id="gmap_canvas1" src="https://maps.google.com/maps?q=2987%20moni%20street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                       </iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+                                       <a href="https://www.embedgooglemap.net"></a>
+                                    </div>
+                                </div>
+                            <a href="https://www.facebook.com/vhonani.mugivhi.7" class="fa fa-facebook"></a>
+                            <a href="https://www.linkedin.com/in/vhonani-mugivhi-00b375202/" class="fa fa-linkedin"></a>
+                            <i class="fa fa-whatsapp" style="font-size:48px;color:greenyellow"></i>
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <p>&#169; 2022 Vhonani bootcamp All Rights Reserved.</p>
+                       </td>
+                       </tr>
+                </table>
+  
+        
+            </footer>
+            <script>
+                
+function validateForm() {
+  let x = document.forms["theOnlyForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+
+function isNumberKey(evt){
+var charCode = (evt.which) ? evt.which : event.keyCode
+  if (charCode > 31 && (charCode < 48 || charCode > 57))
+  return false;
+
+  return true;
+ }
+                document.getElementById('para1').innerHTML='When sending a Query to Vhonani, it doesnt need to<br> be anonymous.All rights & privacy are reserved.<br> The date is important to us so that we can reply as soon as possible <br> just checking the date actully we reply the query according to the date<br> it was sent. Thank you for choosing Tedd';
+                document.getElementById('para').innerHTML='Query';
+                document.getElementById('para0').innerHTML=' vhonani attended at university of venda:<br>(university of venda location)';
+                document.getElementById('para2').innerHTML='everything that have a star(*) is required';
+                document.getElementById('lb1').innerHTML='Full Names:*';
+                document.getElementById('theD').innerHTML="Today's Date:*";
+                document.getElementById('mess').innerHTML='Your Message:';
+                document.getElementById('sbj').innerHTML='Subject:*';
+                document.getElementById('cont').innerHTML='ContactNo:*';
+                document.getElementById('mail').innerHTML="email:*";
+</script>
+
+
+        </header>
